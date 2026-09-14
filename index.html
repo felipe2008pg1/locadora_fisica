@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineClássico | A Sua Locadora de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- FontAwesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
 
+    <!-- CABEÇALHO / NAVBAR -->
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo">Cine<span>Clássico</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#destaques">Destaques</a></li>
+                    <li><a href="#como-funciona">Como Funciona</a></li>
+                    <li><a href="#localizacao">Onde Estamos</a></li>
+                </ul>
+            </nav>
+            <a href="#localizacao" class="btn-cta-nav">Visite a Loja</a>
+        </div>
+    </header>
+
+    <!-- SEÇÃO HERO (PRINCIPAL) -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h1>O Prazer de Escolher o Filme na Prateleira Voltou.</h1>
+            <p>Esqueça os algoritmos. Venha tomar um café, folhear capas e reviver a verdadeira experiência de escolher um bom filme em Blu-ray, DVD ou fita VHS.</p>
+            <div class="hero-buttons">
+                <a href="#localizacao" class="btn btn-primary"><i class="fa-solid fa-location-dot"></i> Como Chegar</a>
+                <a href="#destaques" class="btn btn-secondary"><i class="fa-solid fa-film"></i> Ver Acervo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE DESTAQUES / GÊNEROS -->
+    <section id="destaques" class="destaques">
+        <div class="container">
+            <h2 class="section-title">Explore Nosso Acervo</h2>
+            <p class="section-subtitle">Mais de 10.000 títulos esperando por você na loja física</p>
+            
+            <div class="grid-categorias">
+                <div class="card-categoria">
+                    <i class="fa-solid fa-hat-cowboy"></i>
+                    <h3>Clássicos & Cult</h3>
+                    <p>Obras-primas que marcaram épocas e o cinema de arte.</p>
+                </div>
+                <div class="card-categoria">
+                    <i class="fa-solid fa-rocket"></i>
+                    <h3>Ficção & Ação</h3>
+                    <p>Blockbusters, super-heróis e muita adrenalina.</p>
+                </div>
+                <div class="card-categoria">
+                    <i class="fa-solid fa-face-laugh-beam"></i>
+                    <h3>Comédia & Família</h3>
+                    <p>Filmes para curtir com as crianças e dar boas risadas.</p>
+                </div>
+                <div class="card-categoria">
+                    <i class="fa-solid fa-ghost"></i>
+                    <h3>Terror & Suspense</h3>
+                    <p>Para quem gosta de arrepiar na hora de dormir.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="como-funciona">
+        <div class="container">
+            <h2 class="section-title">Como Funciona a Locação</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Venha nos Visitar</h3>
+                    <p>Passe na nossa loja física para conversar com nossos atendentes e garimpar prateleiras.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Faça seu Cadastro</h3>
+                    <p>É rápido e gratuito. Leve apenas um documento com foto e comprovante de residência.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Leve para Casa</h3>
+                    <p>Aproveite seu fim de semana com o melhor do cinema direto na sua TV por um preço super acessível.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO E CONTATO -->
+    <section id="localizacao" class="localizacao">
+        <div class="container loc-grid">
+            <div class="loc-info">
+                <h2>Venha Tomar um Café Conosco!</h2>
+                <p>Adoramos falar de cinema. Venha conhecer a loja física, trocar ideias sobre diretores e garantir a sessão de cinema do seu fim de semana.</p>
+                
+                <ul class="contact-list">
+                    <li><i class="fa-solid fa-location-dot"></i> Rua do Cinema, 420 - Bairro Central</li>
+                    <li><i class="fa-solid fa-clock"></i> Segunda a Sábado: das 10h às 20h</li>
+                    <li><i class="fa-solid fa-phone"></i> (48) 99999-9999</li>
+                    <li><i class="fa-brands fa-instagram"></i> @cineclassico.locadora</li>
+                </ul>
+            </div>
+            <div class="loc-map">
+                <!-- Simulação de um mapa visual estiloso -->
+                <div class="map-placeholder">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <p>Mapa Interativo da Loja</p>
+                    <span>Estamos esperando sua visita!</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 CineClássico Locadora de Filmes. Todos os direitos reservados.</p>
+            <p>Feito com paixão pelo cinema de rua.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
