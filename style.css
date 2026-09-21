@@ -15,8 +15,8 @@
 
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(15, 16, 22, 0.7), rgba(255, 255, 255, 0.9)), 
-                url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&q=80&w=1920') no-repeat center center/cover;
+    background: linear-gradient(rgba(15, 16, 22, 0.7), rgba(15, 16, 22, 0.9)),
+    url('...') no-repeat center center/cover;
     display: flex;
     align-items: center;
     text-align: center;
@@ -264,4 +264,11 @@ footer {
     .loc-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
 }
