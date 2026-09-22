@@ -12,11 +12,11 @@ O **CineClássico** é uma landing page moderna, elegante e responsiva criada pa
 
 | Seção Principal | Categorias de Acervo |
 |---|---|
-| ![Hero Banner](img/hero.jpg) | ![Categorias](img/categorias.png) |
+| ![Hero Banner](img/demo/hero.png) | ![Categorias](img/demo/categorias.png) |
 
 | Como Funciona | Localização e Contato |
 |---|---|
-| ![Passo a Passo](img/como-funciona.png) | ![Onde Estamos](img/localizacao.png) |
+| ![Passo a Passo](img/demo/como-funciona.png) | ![Onde Estamos](img/demo/localizacao.png) |
 
 ---
 
@@ -46,10 +46,16 @@ locadora_fisica/
 ├── style.css
 ├── README.md
 └── img/
-    ├── hero.jpg
-    ├── categorias.png
-    ├── como-funciona.png
-    └── localizacao.png
+    ├── demo/
+    │   ├── hero.png
+    │   ├── categorias.png
+    │   ├── como-funciona.png
+    │   └── localizacao.png
+    ├── acao/
+    ├── animacao/
+    ├── comedia;drama;suspense/
+    ├── fantasia/
+    └── ficcao/
 ```
 
 ---
