@@ -96,5 +96,5 @@ Projeto desenvolvido por:
 ---
 
 <p align="center">
-  <i>🇧🇷 THIS PROJECT IS AVAILABLE ONLY IN BRAZILIAN PORTUGUESE. 🇧🇷</i>
+  <i>🇧🇷 THIS PROJECT IS AVAILABLE ONLY IN BRAZILIAN PORTUGUESE BECAUSE IS A STUDY PROJECT. 🇧🇷</i>
 </p>
