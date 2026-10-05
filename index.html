@@ -1,141 +1,566 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CineClássico | A Sua Locadora de Filmes</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Bebas+Neue&display=swap"
-        rel="stylesheet">
-    <!-- FontAwesome para ícones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-
-<body>
-
-    <!-- CABEÇALHO / NAVBAR -->
-    <header>
-        <div class="container navbar">
-            <a href="#" class="logo">Cine<span>Clássico</span></a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#destaques">Destaques</a></li>
-                    <li><a href="#como-funciona">Como Funciona</a></li>
-                    <li><a href="#localizacao">Onde Estamos</a></li>
-                </ul>
-            </nav>
-            <a href="#localizacao" class="btn-cta-nav">Visite a Loja</a>
-        </div>
-    </header>
-
-    <!-- SEÇÃO HERO (PRINCIPAL) -->
-    <section id="inicio" class="hero">
-        <div class="container hero-content">
-            <h1>O Prazer de Escolher o Filme na Prateleira Voltou.</h1>
-            <p>Esqueça os algoritmos. Venha tomar um café, folhear capas e reviver a verdadeira experiência de escolher
-                um bom filme em Blu-ray, DVD ou fita VHS.</p>
-            <div class="hero-buttons">
-                <a href="#localizacao" class="btn btn-primary"><i class="fa-solid fa-location-dot"></i> Como Chegar</a>
-                <a href="#destaques" class="btn btn-secondary"><i class="fa-solid fa-film"></i> Ver Acervo</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- SEÇÃO DE DESTAQUES / GÊNEROS -->
-    <section id="destaques" class="destaques">
-        <div class="container">
-            <h2 class="section-title">Explore Nosso Acervo</h2>
-            <p class="section-subtitle">Mais de 10.000 títulos esperando por você na loja física</p>
-
-            <div class="grid-categorias">
-                <div class="card-categoria">
-                    <i class="fa-solid fa-hat-cowboy"></i>
-                    <h3>Clássicos & Cult</h3>
-                    <p>Obras-primas que marcaram épocas e o cinema de arte.</p>
-                </div>
-                <div class="card-categoria">
-                    <i class="fa-solid fa-rocket"></i>
-                    <h3>Ficção & Ação</h3>
-                    <p>Blockbusters, super-heróis e muita adrenalina.</p>
-                </div>
-                <div class="card-categoria">
-                    <i class="fa-solid fa-face-laugh-beam"></i>
-                    <h3>Comédia & Família</h3>
-                    <p>Filmes para curtir com as crianças e dar boas risadas.</p>
-                </div>
-                <div class="card-categoria">
-                    <i class="fa-solid fa-ghost"></i>
-                    <h3>Terror & Suspense</h3>
-                    <p>Para quem gosta de arrepiar na hora de dormir.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- COMO FUNCIONA -->
-    <section id="como-funciona" class="como-funciona">
-        <div class="container">
-            <h2 class="section-title">Como Funciona a Locação</h2>
-            <div class="steps-grid">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Venha nos Visitar</h3>
-                    <p>Passe na nossa loja física para conversar com nossos atendentes e garimpar prateleiras.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>Faça seu Cadastro</h3>
-                    <p>É rápido e gratuito. Leve apenas um documento com foto e comprovante de residência.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Leve para Casa</h3>
-                    <p>Aproveite seu fim de semana com o melhor do cinema direto na sua TV por um preço super acessível.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- LOCALIZAÇÃO E CONTATO -->
-    <section id="localizacao" class="localizacao">
-        <div class="container loc-grid">
-            <div class="loc-info">
-                <h2>Venha Tomar um Café Conosco!</h2>
-                <p>Adoramos falar de cinema. Venha conhecer a loja física, trocar ideias sobre diretores e garantir a
-                    sessão de cinema do seu fim de semana.</p>
-
-                <ul class="contact-list">
-                    <li><i class="fa-solid fa-location-dot"></i> Rua do Cinema, 420 - Bairro Central</li>
-                    <li><i class="fa-solid fa-clock"></i> Segunda a Sábado: das 10h às 20h</li>
-                    <li><i class="fa-solid fa-phone"></i> (48) 99999-9999</li>
-                    <li><i class="fa-brands fa-instagram"></i> @cineclassico.locadora</li>
-                </ul>
-            </div>
-            <div class="loc-map">
-                <!-- Simulação de um mapa visual estiloso -->
-                <div class="map-placeholder">
-                    <i class="fa-solid fa-map-location-dot"></i>
-                    <p>Mapa Interativo da Loja</p>
-                    <span>Estamos esperando sua visita!</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- RODAPÉ -->
-    <footer>
-        <div class="container footer-content">
-            <p>&copy; 2026 CineClássico Locadora de Filmes. Todos os direitos reservados.</p>
-            <p>Feito com paixão pelo cinema de rua.</p>
-        </div>
-    </footer>
-
-</body>
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   CineCl&aacute;ssico | A Sua Locadora de Filmes
+  </title>
+  <!-- Google Fonts: Bebas Neue e Poppins -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+  <!-- FontAwesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+  </head>
+ <body>
+  <header id="header">
+   <div class="container navbar">
+    <a class="logo" href="#">
+     <i class="fa-solid fa-tape">
+     </i>
+     Cine
+     <span>
+      Cl&aacute;ssico
+     </span>
+    </a>
+    <nav>
+     <ul class="nav-links">
+      <li>
+       <a href="#inicio">
+        In&iacute;cio
+       </a>
+      </li>
+      <li>
+       <a href="#acervo">
+        Acervo
+       </a>
+      </li>
+      <li>
+       <a href="#destaques">
+        Categorias
+       </a>
+      </li>
+      <li>
+       <a href="#como-funciona">
+        Como Funciona
+       </a>
+      </li>
+      <li>
+       <a href="#localizacao">
+        Onde Estamos
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <div class="nav-actions">
+     <button aria-label="Abrir Cesta de Filmes" class="btn-cart" id="openCartBtn">
+      <i class="fa-solid fa-basket-shopping">
+      </i>
+      <span>
+       Cesta
+      </span>
+      <span class="cart-badge" id="cartCountBadge">
+       0
+      </span>
+     </button>
+     <a class="btn-cta-nav" href="#localizacao">
+      <i class="fa-solid fa-store">
+      </i>
+      Visite a Loja
+     </a>
+    </div>
+   </div>
+  </header>
+  <section class="hero" id="inicio">
+   <div class="container hero-content">
+    <div class="hero-tagline">
+     <i class="fa-solid fa-compact-disc">
+     </i>
+     Reviva a
+          nostalgia cinematogr&aacute;fica
+    </div>
+    <h1>
+     O Prazer de Escolher o Filme na Prateleira
+     <span>
+      Voltou
+     </span>
+     .
+    </h1>
+    <p>
+     Esque&ccedil;a os algoritmos impessoais. Venha tomar um caf&eacute; passado, folhear
+          encartes originais e reviver a verdadeira experi&ecirc;ncia de garimpar
+          obras em Blu-ray, DVD e fitas VHS.
+    </p>
+    <div class="hero-buttons">
+     <a class="btn btn-primary" href="#acervo">
+      <i class="fa-solid fa-film">
+      </i>
+      Explorar
+            Cat&aacute;logo Completo
+     </a>
+     <a class="btn btn-secondary" href="#localizacao">
+      <i class="fa-solid fa-location-dot">
+      </i>
+      Como
+            Chegar &agrave; Loja
+     </a>
+    </div>
+    <div class="hero-stats">
+     <div class="stat-item">
+      <h4>
+       +10.000
+      </h4>
+      <p>
+       T&iacute;tulos F&iacute;sicos
+      </p>
+     </div>
+     <div class="stat-item">
+      <h4>
+       R$ 4,90
+      </h4>
+      <p>
+       Di&aacute;ria Acess&iacute;vel
+      </p>
+     </div>
+     <div class="stat-item">
+      <h4>
+       100%
+      </h4>
+      <p>
+       Amor ao Cinema
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="catalogo-section" id="acervo">
+   <div class="container">
+    <div class="section-header">
+     <span class="section-tag">
+      Garimpo F&iacute;sico &amp; Digital
+     </span>
+     <h2 class="section-title">
+      Cat&aacute;logo Interativo da Locadora
+     </h2>
+     <p class="section-subtitle">
+      Consulte em tempo real os cl&aacute;ssicos e novidades dispon&iacute;veis nas
+            estantes da nossa loja.
+     </p>
+    </div>
+    <!-- Controles do Catálogo (Filtro por Segmento, Busca e Ordenação) -->
+    <div class="catalog-controls">
+     <div class="search-and-sort">
+      <div class="search-box">
+       <i class="fa-solid fa-magnifying-glass">
+       </i>
+       <input class="search-input" id="movieSearch" placeholder="Buscar por t&iacute;tulo (ex: Vingadores, Avatar, Toy Story)..." type="text"/>
+      </div>
+      <div class="sort-box">
+       <select aria-label="Ordenar t&iacute;tulos" class="sort-select" id="movieSort">
+        <option value="ano-desc">
+         Mais Recentes Primeiro
+        </option>
+        <option value="ano-asc">
+         Mais Antigos Primeiro
+        </option>
+        <option value="titulo-asc">
+         Ordem Alfab&eacute;tica (A - Z)
+        </option>
+        <option value="titulo-desc">
+         Ordem Alfab&eacute;tica (Z - A)
+        </option>
+       </select>
+      </div>
+     </div>
+     <!-- Botões de Segmentos / Gêneros -->
+     <div class="filter-pills" id="segmentFilters">
+      <!-- Gerados via JavaScript -->
+     </div>
+    </div>
+    <!-- Contador de Resultados -->
+    <div class="catalog-meta">
+     <span>
+      Exibindo
+      <strong id="visibleCount">
+       0
+      </strong>
+      t&iacute;tulos
+            encontrados
+     </span>
+     <span>
+      Pre&ccedil;o padr&atilde;o:
+      <strong>
+       R$ 4,90 / 48h
+      </strong>
+     </span>
+    </div>
+    <!-- Grade de Cards de Filmes -->
+    <div class="movies-grid" id="moviesContainer">
+     <!-- Inserido dinamicamente via JS -->
+    </div>
+   </div>
+  </section>
+  <section class="destaques" id="destaques">
+   <div class="container">
+    <div class="section-header">
+     <span class="section-tag">
+      Curadoria Especial
+     </span>
+     <h2 class="section-title">
+      Explore Por Segmentos
+     </h2>
+     <p class="section-subtitle">
+      Prateleiras organizadas pelos nossos atendentes cin&eacute;filos
+     </p>
+    </div>
+    <div class="grid-categorias">
+     <div class="card-categoria">
+      <i class="fa-solid fa-hat-wizard">
+      </i>
+      <h3>
+       Fantasia &amp; Cl&aacute;ssicos
+      </h3>
+      <p>
+       Obras-primas &eacute;picas de magia, sagas imortais e cl&aacute;ssicos
+              memor&aacute;veis.
+      </p>
+     </div>
+     <div class="card-categoria">
+      <i class="fa-solid fa-explosion">
+      </i>
+      <h3>
+       A&ccedil;&atilde;o &amp; Aventura
+      </h3>
+      <p>
+       Blockbusters eletrizantes, super-her&oacute;is e adrenalina pura de tirar
+              o f&ocirc;lego.
+      </p>
+     </div>
+     <div class="card-categoria">
+      <i class="fa-solid fa-rocket">
+      </i>
+      <h3>
+       Fic&ccedil;&atilde;o Cient&iacute;fica
+      </h3>
+      <p>
+       Viagens no tempo, gal&aacute;xias distantes e realidades dist&oacute;picas
+              fascinantes.
+      </p>
+     </div>
+     <div class="card-categoria">
+      <i class="fa-solid fa-palette">
+      </i>
+      <h3>
+       Anima&ccedil;&atilde;o &amp; Fam&iacute;lia
+      </h3>
+      <p>
+       Pixar, Disney, cl&aacute;ssicos animados e filmes para alegrar qualquer
+              idade.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="como-funciona" id="como-funciona">
+   <div class="container">
+    <div class="section-header">
+     <span class="section-tag">
+      Simples &amp; Nost&aacute;lgico
+     </span>
+     <h2 class="section-title">
+      Como Funciona a Loca&ccedil;&atilde;o
+     </h2>
+     <p class="section-subtitle">
+      Sem assinaturas escondidas ou renova&ccedil;&otilde;es autom&aacute;ticas no cart&atilde;o de
+            cr&eacute;dito.
+     </p>
+    </div>
+    <div class="steps-grid">
+     <div class="step">
+      <div class="step-number">
+       <span>
+        01
+       </span>
+       <i class="fa-solid fa-store">
+       </i>
+      </div>
+      <h3>
+       Venha nos Visitar
+      </h3>
+      <p>
+       Passe na nossa loja f&iacute;sica para tomar um caf&eacute;, trocar ideias com
+              cin&eacute;filos e garimpar prateleiras cheias de op&ccedil;&otilde;es.
+      </p>
+     </div>
+     <div class="step">
+      <div class="step-number">
+       <span>
+        02
+       </span>
+       <i class="fa-solid fa-id-card">
+       </i>
+      </div>
+      <h3>
+       Fa&ccedil;a seu Cadastro
+      </h3>
+      <p>
+       &Eacute; r&aacute;pido e 100% gratuito. Leve apenas documento com foto e
+              comprovante de resid&ecirc;ncia para ter sua carteirinha de s&oacute;cio.
+      </p>
+     </div>
+     <div class="step">
+      <div class="step-number">
+       <span>
+        03
+       </span>
+       <i class="fa-solid fa-tv">
+       </i>
+      </div>
+      <h3>
+       Leve para Casa
+      </h3>
+      <p>
+       Curta uma sess&atilde;o especial no conforto do seu sof&aacute;. Voc&ecirc; tem 48h
+              para assistir com imagem e som sem compress&atilde;o de streaming.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="localizacao" id="localizacao">
+   <div class="container loc-grid">
+    <div class="loc-info">
+     <span class="section-tag">
+      Loja F&iacute;sica
+     </span>
+     <h2>
+      Venha Tomar um Caf&eacute; Conosco!
+     </h2>
+     <p>
+      Nossa equipe ama cinema de verdade. Venha conhecer nosso acervo
+            f&iacute;sico, garimpar capas raras, conversar sobre diretores e garantir a
+            sess&atilde;o de cinema do seu final de semana.
+     </p>
+     <ul class="contact-list">
+      <li>
+       <i class="fa-solid fa-location-dot">
+       </i>
+       <span>
+        Rua do Cinema, 420 - Centro Cultural, Florian&oacute;polis - SC
+       </span>
+      </li>
+      <li>
+       <i class="fa-solid fa-clock">
+       </i>
+       <span>
+        Segunda a S&aacute;bado: das 10h &agrave;s 21h (Domingos das 14h &agrave;s
+                19h)
+       </span>
+      </li>
+      <li>
+       <i class="fa-solid fa-phone">
+       </i>
+       <span>
+        (48) 99999-9999 / (48) 3222-0000
+       </span>
+      </li>
+      <li>
+       <i class="fa-brands fa-instagram">
+       </i>
+       <span>
+        @cineclassico.locadora
+       </span>
+      </li>
+     </ul>
+     <a class="btn btn-primary" href="#acervo">
+      <i class="fa-solid fa-bookmark">
+      </i>
+      Montar
+            Reserva Antecipada
+     </a>
+    </div>
+    <div class="loc-map">
+     <!-- Simulação interativa e estética de mapa da loja -->
+     <div class="map-interactive-card">
+      <div class="map-grid-bg">
+      </div>
+      <div class="map-pin-pulse">
+       <i class="fa-solid fa-location-dot">
+       </i>
+       <div class="map-pulse-ring">
+       </div>
+      </div>
+      <div class="map-overlay-info">
+       <div>
+        <h5>
+         CineCl&aacute;ssico Store
+        </h5>
+        <p>
+         Estacionamento conveniado no local &bull; Caf&eacute; Gr&aacute;tis
+        </p>
+       </div>
+       <a class="btn-cta-nav" href="https://maps.google.com" rel="noopener noreferrer" style="padding: 6px 12px; font-size: 0.8rem" target="_blank">
+        Abrir no GPS
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Drawer / Gaveta da Cesta de Filmes -->
+  <div class="cart-drawer-backdrop" id="cartBackdrop">
+  </div>
+  <aside aria-hidden="true" class="cart-drawer" id="cartDrawer">
+   <div class="cart-header">
+    <h3>
+     <i class="fa-solid fa-basket-shopping" style="color: var(--primary)">
+     </i>
+     Sua Cesta de Loca&ccedil;&atilde;o
+    </h3>
+    <button aria-label="Fechar cesta" class="cart-close-btn" id="closeCartBtn">
+     <i class="fa-solid fa-xmark">
+     </i>
+    </button>
+   </div>
+   <div class="cart-body" id="cartItemsList">
+    <!-- Itens inseridos dinamicamente -->
+   </div>
+   <div class="cart-footer">
+    <div class="cart-summary">
+     <span>
+      Total Estimado (48h):
+     </span>
+     <span id="cartTotalPrice">
+      R$ 0,00
+     </span>
+    </div>
+    <button class="btn-checkout" id="checkoutBtn">
+     <i class="fa-solid fa-circle-check">
+     </i>
+     Concluir
+          Reserva na Loja
+    </button>
+   </div>
+  </aside>
+  <!-- Modal de Detalhes do Filme -->
+  <div class="modal-backdrop" id="movieModalBackdrop">
+   <div aria-modal="true" class="movie-modal" role="dialog">
+    <div class="modal-header-banner">
+     <button aria-label="Fechar detalhes" class="modal-close-btn" id="modalCloseBtn">
+      <i class="fa-solid fa-xmark">
+      </i>
+     </button>
+     <div style="z-index: 2">
+      <span class="movie-format-badge badge-bluray" id="modalFormatBadge">
+       Blu-ray
+      </span>
+     </div>
+    </div>
+    <div class="modal-body">
+     <h3 class="modal-title" id="modalMovieTitle">
+      T&iacute;tulo do Filme
+     </h3>
+     <div class="modal-badges">
+      <span class="movie-genre-tag" id="modalMovieGenre">
+       Segmento
+      </span>
+      <span style="color: var(--text-muted); font-size: 0.8rem">
+       &bull;
+      </span>
+      <span id="modalMovieYear" style="color: var(--text-muted); font-size: 0.8rem">
+       2020
+      </span>
+     </div>
+     <div class="modal-info-grid">
+      <div>
+       <strong>
+        M&iacute;dia F&iacute;sica:
+       </strong>
+       <span id="modalMedia">
+        Blu-ray 1080p Estojo Duplo
+       </span>
+      </div>
+      <div>
+       <strong>
+        Di&aacute;ria de Loca&ccedil;&atilde;o:
+       </strong>
+       <span style="color: #4ade80">
+        R$ 4,90 (Devolu&ccedil;&atilde;o em 48h)
+       </span>
+      </div>
+      <div>
+       <strong>
+        &Aacute;udio &amp; Legendas:
+       </strong>
+       <span>
+        Portugu&ecirc;s (Dub/Leg) + &Aacute;udio Original
+       </span>
+      </div>
+      <div>
+       <strong>
+        Status no Estoque:
+       </strong>
+       <span style="color: var(--accent)">
+        <i class="fa-solid fa-circle-dot">
+        </i>
+        Dispon&iacute;vel na
+                Estante
+       </span>
+      </div>
+     </div>
+     <button class="btn-checkout" id="modalAddToCartBtn">
+      <i class="fa-solid fa-plus">
+      </i>
+      Adicionar &agrave;
+            Cesta de Loca&ccedil;&atilde;o
+     </button>
+    </div>
+   </div>
+  </div>
+  <!-- Container de Notificações Toast -->
+  <div class="toast-container" id="toastContainer">
+  </div>
+  <footer>
+   <div class="container footer-content">
+    <a class="footer-logo" href="#">
+     Cine
+     <span>
+      Cl&aacute;ssico
+     </span>
+    </a>
+    <ul class="footer-links">
+     <li>
+      <a href="#inicio">
+       In&iacute;cio
+      </a>
+     </li>
+     <li>
+      <a href="#acervo">
+       Acervo Completo
+      </a>
+     </li>
+     <li>
+      <a href="#como-funciona">
+       Regras de Loca&ccedil;&atilde;o
+      </a>
+     </li>
+     <li>
+      <a href="#localizacao">
+       Visite Nossa Loja
+      </a>
+     </li>
+    </ul>
+    <p>
+     &copy; 2026 CineCl&aacute;ssico Locadora de Filmes. Todos os direitos
+          reservados.
+    </p>
+    <p style="opacity: 0.6; font-size: 0.8rem">
+     Feito com paix&atilde;o pelo cinema de rua e pela preserva&ccedil;&atilde;o da m&iacute;dia
+          f&iacute;sica.
+    </p>
+   </div>
+  </footer>
+ </body>
 </html>
