@@ -115,7 +115,6 @@ locadora_fisica/
 │   ├── 📁 comedia;drama;suspense/
 │   ├── 📁 fantasia/
 │   └── 📁 ficcao/
-├── 📁 locadora_fisica/
 ├── 📄 index.html
 ├── 🎨 style.css
 ├── 🐍 funcoes_dados.py
