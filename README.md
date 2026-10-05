@@ -205,13 +205,3 @@ Projeto desenvolvido por:
 | :---: | :---: | :---: | :---: |
 
 </div>
-
----
-
-<div align="center">
-
-*Feito com paixão pelo cinema de rua.* 🍿
-
-⭐ Se gostou do projeto, deixe uma estrela no repositório!
-
-</div>
